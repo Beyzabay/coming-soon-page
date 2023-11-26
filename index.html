@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+</head>
+<body>
+    <div class="row">
+       <div class="col-7 total">
+          <div class="col-12 p-4 logoX">
+            <div class="col-12 p-4 m-3 logo">
+                <img src="images/logo.svg" class="imgLogo">
+            </div>
+            <div class="image-container">
+              <img class="hero-mobile" src="images/hero-mobile.jpg">
+            </div>
+             <div class="container sm-Container">
+              <div class="row">
+                <div class="col-8 m-4 p-4 contentHeader">
+                  <h1>
+                    <span class="pink">WE'RE</span> <br>
+                    <span class="introText">COMING</span> <br>
+                    <span class="introText">SOON</span>
+                  </h1>
+                  <p class="contentText">
+                    Hello fellow shoppers! We're currently building our new fashion store,
+                    Add your email below to stay up-to-date with announcements and our
+                    launch deals.
+                  </p>
+                  <form action="index.html" method="post" id="formID">
+                    <div class="form-grup">
+                      <input class="col-10 mailButton" type="input" name="email" id="email" placeholder="E-mail Adress">
+                      <button type="submit">
+                        <img src="images/icon-arrow.svg" class="icon-arrow">
+                      </button>  
+                      <div class="iconError">
+                        <img src="images/icon-error.svg" class="icon-error" id="icon-error">
+                      </div>
+                      <p class="text-error" id="text-error">The input field is empty</p> 
+                      <p id="emailMessage" class="emailMessage">The email address is not formatted correctly</p>
+                      <p id="succesMessage" class="succesMessage">Thank you for subscribing to our newsletter.</p>
+
+                    </div>
+                  </form>
+                </div>
+              </div>
+             </div>
+           
+          </div>
+    </div>
+    <div class="col-5">
+      <div class="container image-container">
+        <div class="col-12 ">
+          <div class="col-6"> 
+              <img class="hero-desktop" src="images/hero-desktop.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</body>
+<script src="function.js"></script>
+</html>
